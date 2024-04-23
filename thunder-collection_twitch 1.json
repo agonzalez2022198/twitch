@@ -1,0 +1,47 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "twitch",
+    "collectionId": "af10b87a-6b31-4192-a4b3-e0409bd7a92e",
+    "dateExported": "2024-04-22T23:22:57.009Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c55e8bc8-ae20-4e58-8ee9-9988bcff019e",
+            "colId": "af10b87a-6b31-4192-a4b3-e0409bd7a92e",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://127.0.0.1:8080/twitch/v1/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-15T13:40:54.118Z",
+            "modified": "2024-04-15T13:50:55.428Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Pedro\",\n  \"password\": \"123456\",\n  \"email\": \"pmedina@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1d1294c0-3482-485d-934f-feaed8649740",
+            "colId": "af10b87a-6b31-4192-a4b3-e0409bd7a92e",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8080/twitch/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-04-15T13:45:07.792Z",
+            "modified": "2024-04-22T23:07:46.761Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"123456\",\n  \"email\": \"cjuarez@kinal.edu.gt\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "AY_3gAdvvI7fALtP5VeOYqjLhBHr94km93PZC5xZHhWB6HP1vT-ReC-iDE2wudWw4Yra2w0lr6XohK6PfWNGvw"
+}

@@ -1,0 +1,128 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Channels",
+    "collectionId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+    "dateExported": "2024-04-22T23:23:05.360Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "33a9a811-1663-4cda-b2bd-5018a83b6cb7",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "Find channel by id",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/661d2f529e72ceb8f4a9228b",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-15T13:53:20.933Z",
+            "modified": "2024-04-15T14:27:06.840Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e97a4965-43f7-42a7-b747-44987b50554c",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "List Channels",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-15T14:26:03.342Z",
+            "modified": "2024-04-15T14:26:24.238Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "500b9ff5-2d42-44ca-84fd-d03f141909c3",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "Find my channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-15T14:28:44.408Z",
+            "modified": "2024-04-15T14:30:31.629Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY1MjllNzJjZWI4ZjRhOTIyOGQiLCJlbWFpbCI6ImFtYWVkYUBnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTEyODIsImV4cCI6MTcxMzIyMDA4Mn0.i_F9KhizO-AmxlOf8atU0FrZZUvrtvjB_D6_LIZvDOo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f3966fed-9f5b-401b-9aef-19d63a968746",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "Follo Channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/follow",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-15T14:23:49.444Z",
+            "modified": "2024-04-22T23:08:03.589Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjI2ZWMxZTRhMWFhNGU0OGRlNmVhZTUiLCJlbWFpbCI6ImNqdWFyZXpAa2luYWwuZWR1Lmd0IiwiaWF0IjoxNzEzODI3MjY2LCJleHAiOjE3MTM4NTYwNjZ9.dhPBsoOQLMVGTUAkaefyK_RWo_4M3ZjBMDRS_0KbToE"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"channelId\": \"66268e4282637d97cf7f6772\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ecb0d306-3300-4b90-ae3b-fa0db96186e5",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "Update settings channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-04-15T14:34:05.264Z",
+            "modified": "2024-04-15T14:38:31.384Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY1MjllNzJjZWI4ZjRhOTIyOGQiLCJlbWFpbCI6ImFtYWVkYUBnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTEyODIsImV4cCI6MTcxMzIyMDA4Mn0.i_F9KhizO-AmxlOf8atU0FrZZUvrtvjB_D6_LIZvDOo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"ariana\",\n  \"title\": \"pancito\",\n  \"description\": \"migas de pan unidas molecularmente\",\n  \"avatarUrl\": \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.ifunny.co%2Fpicture%2FLOmpruYv9&psig=AOvVaw3okvsH2acVJ1hrBWYEYiKg&ust=1713278631279000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMDK_oS5xIUDFQAAAAAdAAAAABAD\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "11a72032-7ce3-4226-ab63-27014986f9fc",
+            "colId": "dfd74528-2637-456c-aa55-c04e3268cf7a",
+            "containerId": "",
+            "name": "Change Password",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/password",
+            "method": "PATCH",
+            "sortNum": 80000,
+            "created": "2024-04-15T14:39:41.315Z",
+            "modified": "2024-04-15T14:42:00.532Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmY1MjllNzJjZWI4ZjRhOTIyOGQiLCJlbWFpbCI6ImFtYWVkYUBnbWFpbC5jb20iLCJpYXQiOjE3MTMxOTEyODIsImV4cCI6MTcxMzIyMDA4Mn0.i_F9KhizO-AmxlOf8atU0FrZZUvrtvjB_D6_LIZvDOo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"123456\",\n  \"newPassword\": \"654321\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "ref": "gs5hJ-aEGYp1pT5Ld_hzSZZiG_U86hXUM_xvh8IOg6FQZLgBCXHM69LYe2ztczp-YZBi9BmwwRVDa8x2_m98mg"
+}
